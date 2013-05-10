@@ -67,6 +67,6 @@ window.onload = function(){
         };
     };
 
-    xhr.open('GET', '/system.html', true);
+    xhr.open('GET', 'system.log', true);
     xhr.send(null);
 };
