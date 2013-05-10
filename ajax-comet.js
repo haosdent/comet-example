@@ -24,8 +24,12 @@ window.onload = function(){
     xhr.onreadystatechange = function(){
         if(xhr.readyState === 1){
             tipNode.innerText = 'Finish to establish the connection.';
-        }else if(xhr.readyState === 3){
-            tipNode.innerText = 'Receive data.....';
+        }else if(xhr.readyState >= 3){
+            if(xhr.readyState === 3){
+                tipNode.innerText = 'Finish load data...';
+            }else{
+                tipNode.innerText = 'Receive data.....';
+            };
             var resp = xhr.responseText;
             var data = resp.substring(pos).split('\n');
             var html;
@@ -36,17 +40,20 @@ window.onload = function(){
              * */
             pos = resp.length - data[data.length - 1].length;
 
-            for(var i = 0, l = data.length; i < l; i++){
+            /*
+             * At here, I calcute the range of data explicitly.
+             * When the readyState of xhr is 4, the last record is complete and it should be to handle.
+             * */
+            var l;
+            if(xhr.readyState === 3){
+                l = data.length - 1;
+            }else{
+                l = data.length;
+            };
+
+            for(var i = 0; i < l; i++){
                 var d = data[i];
                 var results = regex.exec(d);
-                if(i === l - 1){
-                    if(results === null){
-                        continue;
-                    }else{
-                        // Fix pos if the last record is complete.
-                        pos += d.length;
-                    };
-                };
 
                 var time = results[1]
                   , host = results[2]
@@ -62,8 +69,6 @@ window.onload = function(){
                 tempNode.innerHTML = html;
                 addPoint.appendChild(tempNode.children[0]);
             };
-        }else if(xhr.readyState === 4){
-            tipNode.innerText = 'Finish load data...';
         };
     };
 
