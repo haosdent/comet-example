@@ -4,7 +4,7 @@
     @date: 2013-05-11
     @overview: Comet demo based ajax stream.-->
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
   <head>
     <meta charset="UTF-8">
     <title>Comet example</title>
@@ -25,5 +25,12 @@
       </tbody>
     </table>
     <script type="text/javascript" src="ajax-comet.js"></script>
+    <script type="text/javascript">
+      window.onload = function(){
+          var addPoint = document.getElementById('add-point');
+          var syslogUrl = 'system.log';
+          showSyslog(addPoint, syslogUrl);
+      };
+    </script>
   </body>
 </html>
