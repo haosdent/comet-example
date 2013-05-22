@@ -12,6 +12,14 @@
   </head>
   <body class="container">
     <h2 id="tip"></h2>
+    <ul class="pager">
+      <li class="previous" id="pre-btn">
+	<a>&larr; Previous</a>
+      </li>
+      <li class="next" id="next-btn">
+	<a>Next &rarr;</a>
+      </li>
+    </ul>
     <table class="table table-striped">
       <thead>
         <tr>
@@ -27,9 +35,8 @@
     <script type="text/javascript" src="ajax-comet.js"></script>
     <script type="text/javascript">
       window.onload = function(){
-          var addPoint = document.getElementById('add-point');
-          var syslogUrl = 'system.log';
-          showSyslog(addPoint, syslogUrl);
+          var url = 'system.log';
+          getSyslog(url);
       };
     </script>
   </body>
