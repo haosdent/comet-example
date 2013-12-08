@@ -1,0 +1,36 @@
+May 10 00:52:20 haosdents-MacBook-Pro.local UserEventAgent[11]: SUNotificationPlugin[uid=0]: trigger from periodic
+May 10 00:52:21 haosdents-MacBook-Pro.local Software Update[24281]: SoftwareUpdate: shouldCheck=0 (i=603000.000000, l=2013-05-06 16:37:21 +0000, c=0) (dw=0, cdw=0, ac=0)
+May 10 00:52:21 haosdents-MacBook-Pro.local Software Update[24281]: SoftwareUpdate: shouldCheck=0 (i=84600.000000, l=2013-05-08 12:52:23 +0000, c=1) (dw=0, cdw=0, ac=0)
+May 10 00:52:21 haosdents-MacBook-Pro.local Software Update[24281]: SUCheckService: sending result 2 to peer
+May 10 00:52:21 haosdents-MacBook-Pro.local UserEventAgent[11]: SUNotificationPlugin[uid=0]: check done with result SUCheckServiceResultUpToDate
+May 10 00:52:21 haosdents-MacBook-Pro.local UserEventAgent[11]: SUNotificationPlugin[uid=0]: Not notifying appstoreupdateagent for user 0
+May 10 00:52:21 haosdents-MacBook-Pro.local Software Update[24281]: SUCheckService: okay to stop (did timeout=0)
+May 10 00:53:17 haosdents-MacBook-Pro.local UserEventAgent[151]: SUNotificationPlugin[uid=501]: trigger from periodic
+May 10 00:53:17 haosdents-MacBook-Pro.local Software Update[24295]: SoftwareUpdate: shouldCheck=0 (i=603000.000000, l=2013-05-06 16:37:21 +0000, c=0) (dw=0, cdw=0, ac=0)
+May 10 00:53:17 haosdents-MacBook-Pro.local Software Update[24295]: SoftwareUpdate: shouldCheck=0 (i=84600.000000, l=2013-05-08 12:52:23 +0000, c=1) (dw=0, cdw=0, ac=0)
+May 10 00:53:17 haosdents-MacBook-Pro.local Software Update[24295]: SUCheckService: sending result 2 to peer
+May 10 00:53:17 haosdents-MacBook-Pro.local UserEventAgent[151]: SUNotificationPlugin[uid=501]: check done with result SUCheckServiceResultUpToDate
+May 10 00:53:17 haosdents-MacBook-Pro.local UserEventAgent[151]: SUNotificationPlugin[uid=501]: Notifying appstoreupdateagent for user 501
+May 10 00:53:17 haosdents-MacBook-Pro.local Software Update[24295]: SUCheckService: okay to stop (did timeout=0)
+May 10 00:53:17 haosdents-MacBook-Pro.local UserEventAgent[151]: SUNotificationPlugin[uid=501]: appstoreupdateagent notification sent
+May 10 07:59:39 haosdents-MacBook-Pro.local UserEventAgent[151]: SUNotificationPlugin[uid=501]: trigger from periodic
+May 10 07:59:39 haosdents-MacBook-Pro.local UserEventAgent[11]: SUNotificationPlugin[uid=0]: trigger from periodic
+May 10 07:59:39 haosdents-MacBook-Pro.local Software Update[24405]: SoftwareUpdate: shouldCheck=0 (i=603000.000000, l=2013-05-06 16:37:21 +0000, c=0) (dw=0, cdw=0, ac=0)
+May 10 07:59:39 haosdents-MacBook-Pro.local Software Update[24405]: SoftwareUpdate: shouldCheck=0 (i=84600.000000, l=2013-05-08 12:52:23 +0000, c=1) (dw=0, cdw=0, ac=0)
+May 10 07:59:39 haosdents-MacBook-Pro.local Software Update[24405]: SUCheckService: sending result 2 to peer
+May 10 07:59:39 haosdents-MacBook-Pro.local UserEventAgent[151]: SUNotificationPlugin[uid=501]: check done with result SUCheckServiceResultUpToDate
+May 10 07:59:39 haosdents-MacBook-Pro.local UserEventAgent[11]: SUNotificationPlugin[uid=0]: check done with result SUCheckServiceResultUpToDate
+May 10 07:59:39 haosdents-MacBook-Pro.local UserEventAgent[11]: SUNotificationPlugin[uid=0]: Not notifying appstoreupdateagent for user 0
+May 10 07:59:39 haosdents-MacBook-Pro.local UserEventAgent[151]: SUNotificationPlugin[uid=501]: Notifying appstoreupdateagent for user 501
+May 10 07:59:39 haosdents-MacBook-Pro.local Software Update[24405]: SUCheckService: okay to stop (did timeout=0)
+May 10 07:59:39 haosdents-MacBook-Pro.local UserEventAgent[151]: SUNotificationPlugin[uid=501]: appstoreupdateagent notification sent
+May 10 09:20:45 haosdents-MacBook-Pro.local UserEventAgent[151]: SUNotificationPlugin[uid=501]: trigger from periodic
+May 10 09:20:45 haosdents-MacBook-Pro.local UserEventAgent[11]: SUNotificationPlugin[uid=0]: trigger from periodic
+May 10 09:20:45 haosdents-MacBook-Pro.local Software Update[24562]: SoftwareUpdate: shouldCheck=0 (i=603000.000000, l=2013-05-06 16:37:21 +0000, c=0) (dw=0, cdw=0, ac=0)
+May 10 09:20:45 haosdents-MacBook-Pro.local Software Update[24562]: SoftwareUpdate: shouldCheck=0 (i=84600.000000, l=2013-05-08 12:52:23 +0000, c=1) (dw=0, cdw=0, ac=0)
+May 10 09:20:45 haosdents-MacBook-Pro.local Software Update[24562]: SUCheckService: sending result 2 to peer
+May 10 09:20:45 haosdents-MacBook-Pro.local UserEventAgent[151]: SUNotificationPlugin[uid=501]: check done with result SUCheckServiceResultUpToDate
+May 10 09:20:45 haosdents-MacBook-Pro.local UserEventAgent[11]: SUNotificationPlugin[uid=0]: check done with result SUCheckServiceResultUpToDate
+May 10 09:20:45 haosdents-MacBook-Pro.local UserEventAgent[11]: SUNotificationPlugin[uid=0]: Not notifying appstoreupdateagent for user 0
+May 10 09:20:45 haosdents-MacBook-Pro.local UserEventAgent[151]: SUNotificationPlugin[uid=501]: Notifying appstoreupdateagent for user 501
+May 10 09:20:45 haosdents-MacBook-Pro.local Software Update[24562]: SUCheckService: okay to stop (did timeout=0)
